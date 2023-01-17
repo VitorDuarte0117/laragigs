@@ -1,8 +1,11 @@
+@extends('layout')
+@section('content')
 <h2>
     <a href="/listings/{{$listing['id']}}">
-        {{ $listing['title'] }}
+        <!-- {{ $listing['title'] }} -->
     </a>
 </h2>
 <p>
-    {{ $listing['description'] }}
+    <!-- {{ $listing['description'] }} -->
 </p>
+@endsection
